@@ -22,53 +22,6 @@ if ($method === 'GET') {
     } 
 
 
-    elseif (preg_match('/^\/api\/estadisticas\/top-hr/', $path)) {
-        $controller->topHr();
-    } 
-    elseif (preg_match('/^\/api\/estadisticas\/top-dobles/', $path)) {
-        $controller->topDobles();
-    }
-    elseif (preg_match('/^\/api\/estadisticas\/top-triples/', $path)) {
-        $controller->topTriples();
-    }
-    elseif (preg_match('/^\/api\/estadisticas\/top-hits/', $path)) {
-        $controller->topHits();
-    }
-    elseif (preg_match('/^\/api\/estadisticas\/top-ops/', $path)) {
-        $controller->topOps();
-    } 
-    elseif (preg_match('/^\/api\/estadisticas\/top-rc/', $path)) {
-        $controller->topRc();
-    } 
-    elseif (preg_match('/^\/api\/estadisticas\/top-iso/', $path)) {
-        $controller->topIso();
-    } 
-    elseif (preg_match('/^\/api\/estadisticas\/top-bb/', $path)) {
-        $controller->topBb();
-    } 
-    elseif (preg_match('/^\/api\/estadisticas\/top-k/', $path)) {
-        $controller->topK();
-    } 
-
-    elseif (preg_match('/^\/api\/estadisticas\/top-allstar/', $path)) {
-        $controller->topAllstar();
-    } 
-
-    elseif (preg_match('/^\/api\/estadisticas\/top-xbh/', $path)) {
-        $controller->topXbh();
-    } 
-    elseif (preg_match('/^\/api\/estadisticas\/top-sb/', $path)) {
-        $controller->topSb();
-    } 
-
-    elseif (preg_match('/^\/api\/estadisticas\/top-tb/', $path)) {
-        $controller->topTb();
-    } 
-    elseif (preg_match('/^\/api\/estadisticas\/ciudades/', $path)) {
-        $controller->getCiudades();
-    } 
-
-
 
     // === RESUMEN GENERAL ===
     elseif (preg_match('/^\/api\/estadisticas\/resumen/', $path)) {
