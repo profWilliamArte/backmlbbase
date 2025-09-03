@@ -21,11 +21,12 @@ if ($method === 'GET') {
         $controller->topAvg();
     } 
 
-
-
-    // === RESUMEN GENERAL ===
     elseif (preg_match('/^\/api\/estadisticas\/resumen/', $path)) {
         $controller->resumen();
+    } 
+
+    elseif (preg_match('/^\/api\/estadisticas\/destacados/', $path)) {
+        $controller->destacados();
     } 
 
 
